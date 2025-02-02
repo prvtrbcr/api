@@ -1,21 +1,33 @@
 {
-  "name": "simple-api",
+  "name": "open-api",
   "version": "1.0.0",
-  "description": "simple rest api using expressJS && swagger UI",
   "main": "index.js",
+  "engines": {
+    "node": ">= 18.x",
+    "npm": ">= 9.x"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node ."
   },
-  "keywords": ["api", "expressJS"],
-  "author": "ArifzynXD",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/ArifzynXD/simple-api/issues"
+  "license": "MIT",
+  "author": {
+    "name": "Wildan Izzudin",
+    "email": "contact@neoxr.my.id",
+    "url": "https://api.neoxr.eu/"
   },
-  "homepage": "https://github.com/ArifzynXD/simple-api#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0"
+    "@neoxr/api": "^1.5.3",
+    "axios": "^1.7.4",
+    "body-parser": "^1.20.2",
+    "cfonts": "3.1.1",
+    "chalk": "4.1.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "request-ip": "^3.3.0",
+    "serve-favicon": "^2.5.0"
   }
 }

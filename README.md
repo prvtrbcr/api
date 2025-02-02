@@ -1,22 +1,38 @@
-# simple-api
+## OPEN-API
 
-simple-api adalah source code API menggunakan expressJS, docs swagger UI
+> JavaScript base website script using a plugin as a router that is lightweight and easy to customize.
 
-## Instalasi
+<p align="center"><img src="https://qu.ax/zhNAn.png" alt="Open-API" width="100%"></p>
 
-1. **Clone Repositori:**
-   ```bash
-   git clone https://github.com/ArifzynXD/simple-api 
-   cd simple-api 
-   ```
-2. **Instal Dependensi:**
-   ```bash
-   npm install or yarn install
-   ```
-3. **start the server:**
-   ```bash
-   node . or npm start
-   ```
-   
-## LICENSE
-This project is licensed under the [GPL-3.0-or-later License](LICENSE), which means you are free to use, modify, and distribute the code, but you must include the original copyright and license notice in any copy of the project or substantial portion of it.
+### Features
+
+- [x] Plugin as Router
+- [x] Auto List Feature
+- [x] High Optimation
+- [x] Easy to Customize
+- [x] Show User IP
+- [x] Suitable for Rest API
+- [x] etc.
+
+### Installation & Run
+
+```
+$ yarn
+$ node .
+```
+
+or want to use pm2
+
+```
+$ yarn
+$ npm i -g pm2
+$ pm2 start index.js && pm2 save && pm2 logs
+```
+
+### Example
+
+> /song?q={query}
+
+### Conclusion
+
+> Open-API is part of [Neoxr API](https://api.neoxr.my.id)
